@@ -1,0 +1,166 @@
+body{
+margin: 0;
+padding: 0;
+
+}
+
+/* FOR LAPTOP/BIGGER SCREEN */
+@media screen and (min-width: 768px) {
+.nav-bar ul {
+    font-family: 'Montserrat', sans-serif;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+    
+}
+
+.nav-bar li {
+    float: left;
+}
+
+.nav-bar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+.nav-bar li a:hover {
+    background-color: #111;
+}
+
+.topHead{
+  padding-top: 10vh;
+  padding-bottom: 10vh;
+  text-align: center;
+  background-attachment: fixed;
+  background-position: center;
+  background-image: url("./resources/raphael-lovaski-RjD01Is-KnI-unsplash.jpg");
+  margin-bottom: 5vh;
+  color:black;
+  font-size: larger;
+}
+
+
+.album-selection{
+  position: relative;
+  width: 50%;
+  align-self: center;
+  left: 25%;
+}
+.album-selection ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    color: black;
+    text-align: center;
+  }
+
+  .album-selection li{
+    padding: 1vh;
+  }
+.album-selection a{
+    text-decoration: none;
+    color: black;
+    
+  }
+
+  .tsAlbum{
+    font-size: 50px;
+
+  }
+
+
+
+  /* TS ALbum Styles Every Album */
+
+  #selfTitled{
+    font-family: 'Sacramento', cursive;
+    background: rgb(0,173,162);
+    background: linear-gradient(90deg, rgba(0,173,162,1) 35%, rgba(52,243,255,1) 100%);
+  }
+
+  #fearless{
+    font-family: 'Montserrat', sans-serif;
+    background: rgb(255,236,54);
+    background: linear-gradient(90deg, rgba(255,236,54,1) 76%, rgba(235,215,151,1) 100%);
+
+  }
+  #speakNow{
+    font-family: 'Rochester', cursive;
+    background: rgb(146,60,129);
+    background: linear-gradient(90deg, rgba(146,60,129,1) 67%, rgba(226,183,206,1) 100%);
+
+  }
+  #red{
+    font-family: 'Anton', sans-serif;
+    background: rgb(255,0,0);
+    background: linear-gradient(90deg, rgba(255,0,0,1) 42%, rgba(255,176,176,1) 100%);
+
+  }
+  #nineteen89{
+    font-family: 'Permanent Marker', cursive;
+    background: rgb(120,154,192);
+background: linear-gradient(90deg, rgba(120,154,192,1) 67%, rgba(183,189,201,1) 100%);
+
+  }
+  #reputation{
+    font-family: 'UnifrakturMaguntia', cursive;
+    background: rgb(114,114,114);
+    background: linear-gradient(90deg, rgba(114,114,114,1) 0%, rgba(238,238,238,1) 100%);
+
+  }
+  #lover{
+    font-family: 'Satisfy', cursive;
+    background: rgb(253,205,205);
+    background: linear-gradient(90deg, rgba(253,205,205,1) 79%, rgba(222,192,252,1) 92%);
+
+  }
+  #folklore{
+    font-family: 'IM Fell DW Pica', serif;
+    background: rgb(209,209,209);
+background: linear-gradient(90deg, rgba(209,209,209,1) 0%, rgba(255,255,255,1) 58%);
+
+  }
+  #evermore{
+    font-family: 'IM Fell DW Pica', serif;
+background: rgb(204,98,27);
+background: linear-gradient(90deg, rgba(204,98,27,1) 0%, rgba(255,145,0,1) 91%);
+
+  }
+  #midnights{
+    background: rgb(184,172,209);
+background: linear-gradient(90deg, rgba(184,172,209,1) 0%, rgba(78,68,102,1) 98%);
+
+  }
+}
+
+footer{
+  text-align: center;
+  padding-top: 20vh;
+  color: white;
+  background-color: black;
+  font-family: 'Montserrat', sans-serif;
+  margin-top: 5vh;
+  padding-bottom: 2vh;
+}
+/* FOR SMALL SCREENS */
+
+
+
+
+
+  /* 
+font-family: 'Anton', sans-serif;
+font-family: 'IM Fell DW Pica', serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Permanent Marker', cursive;
+font-family: 'Rochester', cursive;
+font-family: 'Sacramento', cursive;
+font-family: 'Satisfy', cursive;
+font-family: 'UnifrakturMaguntia', cursive;
+  */
