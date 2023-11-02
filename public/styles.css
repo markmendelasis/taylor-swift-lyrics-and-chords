@@ -4,6 +4,15 @@ padding: 0;
 
 }
 
+.aboutThisWebsite pre{
+  font-family: 'Satisfy', cursive;
+  width: 50%;
+  position: relative;
+  left: 25%;
+
+
+
+}
 /* FOR LAPTOP/BIGGER SCREEN */
 @media screen and (min-width: 768px) {
 .nav-bar ul {
@@ -149,6 +158,13 @@ footer{
   padding-bottom: 2vh;
 }
 /* FOR SMALL SCREENS */
+
+
+
+/* mouseover */
+
+
+
 
 
 
