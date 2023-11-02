@@ -4,6 +4,7 @@
 This presonal project will be using Public API to Acquire Taylor Swift Lyrics and Chords. This contains Taylor Swift Album from 2006 up to this day. I hope This project will be a success.
 
 
+
 ## Getting Started
 
 ```bash
@@ -23,5 +24,7 @@ make sure that you are in the correct directory.
 
 
 <h1>Contributing</h1>
+I'm a beginner. I'm sure I'm gonna need somebody's help. Thank you. 
+
 Contributions are welcome! If you have ideas...
 
