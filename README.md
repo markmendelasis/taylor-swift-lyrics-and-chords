@@ -3,6 +3,7 @@
 # About the Website
 This presonal project will be using Public API to Acquire Taylor Swift Lyrics and Chords. This contains Taylor Swift Album from 2006 up to this day. I hope This project will be a success.
 
+I'm using node.js, express.js and ejs for this project.
 
 
 ## Getting Started
