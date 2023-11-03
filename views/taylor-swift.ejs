@@ -5,8 +5,33 @@
 <section class="album-selection">
     <ul>
         <li class="tsAlbum" id="selfTitled"><a  href="/taylor-swift">Taylor Swift</a></li>
+
+        <ul>
+            <form action="/taylor-swift" id="form" class="form" method="POST">
+                <button name="type" value="13" >Tim McGraw</button>
+            </form>
+
+            <% if (locals.data) {%>
+                <h1><%= data.song_title %></h1>
+                <% data.lyrics.split('\n').forEach(line => { %>
+                    <li><%= line %></li>
+                  <% }); %>
+                <% } %>
+                <%if (locals.error) {%>
+                    <div id="tag-error" class="tag-error">
+                      <%=error%>
+                    </div>
+                    <%}%>
+
+        </ul>
+
+
+        </form>
+
     </ul>
 </section>
 
 
 <%- include("partials/footer.ejs") %>
+
+

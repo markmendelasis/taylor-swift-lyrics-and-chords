@@ -4,8 +4,8 @@
 var selfTitledAlbum = document.getElementById("selfTitled");
 
 selfTitledAlbum.addEventListener("mouseenter", function(){
-    selfTitledAlbum.style.transform = "scale(1.5)"
-    selfTitledAlbum.style.marginBottom = ("2vh")
+    selfTitledAlbum.style.transform = "scale(1.5)";
+    selfTitledAlbum.style.marginBottom = ("2vh");
     
     
 }); 
