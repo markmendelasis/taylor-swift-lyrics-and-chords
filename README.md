@@ -26,8 +26,6 @@ Run using "node index.js"
 make sure that you are in the correct directory.
 
 
-
-
 ```
 
 
