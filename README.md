@@ -1,7 +1,11 @@
 
 
 
-https://github.com/markmendelasis/taylor-swift-lyrics-and-chords/assets/96050178/a74a6329-2a25-4f3d-b5d7-69aab2597b2a
+https://github.com/markmendelasis/taylor-swift-lyrics-and-chords/assets/96050178/9e8c8e39-445d-44c8-b809-dc68ffe0bcc0
+
+
+
+
 
 
 
